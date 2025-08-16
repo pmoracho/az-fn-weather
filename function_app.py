@@ -8,7 +8,7 @@ import azure.functions as func
 app = func.FunctionApp()
 
 # Se define la función con un decorador de temporizador
-@app.timer_trigger(schedule="0 */30 * * * *", arg_name="mytimer", run_on_startup=False) 
+@app.timer_trigger(schedule="0 */5 * * * *", arg_name="mytimer", run_on_startup=False) 
 def WeatherCollector(mytimer: func.TimerRequest) -> None:
     logging.info('Python Timer trigger function started at %s', datetime.datetime.now().isoformat())
 
