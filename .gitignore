@@ -48,5 +48,5 @@ __queuestorage__
 __azurite_db*__.json
 
 
-.vscode/
+
 .python_packages/
