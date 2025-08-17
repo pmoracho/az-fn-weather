@@ -6,10 +6,11 @@ función se ejecuta periódicamente utilizando un temporizador.
 
 Con este proyecto se busca probar:
 
-* Un SQL Server en Azure (En la nube)
-* Una función de Azure (En la nube)
+* Un SQL Server en Azure
+* Una función de Azure
 * Un temporizador de Azure
 * Conexión a una API externa
 * GithHub Actions para CI/CD 
 * Almacenamiento de secretos en Azure Key Vault (To do)
 * Almacenamiento de logs en Azure Application Insights (To do)
+
